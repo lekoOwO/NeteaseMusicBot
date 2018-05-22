@@ -1,7 +1,7 @@
 FROM python:3-alpine
 
 ENV HOST https://HOST
-ENV API https://HOST/api
+ENV API /api
 ENV BOT_NAME_EN CloudMusicBot
 ENV BOT_NAME_TW 網易雲音樂解析
 ENV LOGCHANNELID ID
