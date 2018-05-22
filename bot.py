@@ -14,7 +14,7 @@ from aiotg import Bot, chat
 
 greeting = """
 這是 Rex 的網易雲音樂解析 bot !
-是基於[網易雲音樂解析]({}})的服務。
+是基於[網易雲音樂解析]({})的服務。
 使用方式參見 /help
 """.format(os.environ.get('HOST'))
 
